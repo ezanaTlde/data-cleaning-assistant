@@ -1,0 +1,32 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Test CSV quality report",
+			"type": "shell",
+			"command": "npm test -- --run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Test CSV quality report",
+			"type": "shell",
+			"command": "\"C:\\Program Files\\nodejs\\npm.cmd\" test -- --run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		},
+		{
+			"label": "Test CSV quality report",
+			"type": "shell",
+			"command": "$env:Path = \"C:\\Program Files\\nodejs;\" + $env:Path; & \"C:\\Program Files\\nodejs\\npm.cmd\" test -- --run",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
+		}
+	]
+}
