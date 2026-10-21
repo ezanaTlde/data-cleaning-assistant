@@ -30,3 +30,27 @@ Built as part of SEIS 606 (Data Analytics and Visualization), using GitHub Spec 
 ## How to run this app
 
 1. Clone this repository:
+   ```
+   git clone https://github.com/ezanaTlde/data-cleaning-assistant.git
+   cd data-cleaning-assistant
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+4. Open the URL shown in the terminal (typically `http://localhost:5173`) in your browser.
+
+## How to run the automated tests
+
+```
+npm test
+```
+
+## Notes
+
+- On Windows, if `npm` commands are blocked by a PowerShell execution policy error, run this once in PowerShell: `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
+- The file upload input is currently limited to `.csv` files by default in the browser's file picker; non-CSV files can still be selected by changing the file type filter to "All Files" in that dialog.
